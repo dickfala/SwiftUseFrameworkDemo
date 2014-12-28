@@ -1,0 +1,10 @@
+framework module MyCustomFramework {
+  umbrella header "MyCustomFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MyCustomFramework.Swift {
+    header "MyCustomFramework-Swift.h"
+}
